@@ -1,0 +1,25 @@
+{
+  "name": "batch-rename-cli",
+  "version": "1.0.0",
+  "description": "A powerful CLI tool for batch renaming files with pattern matching, regex support, and undo functionality",
+  "main": "src/index.js",
+  "bin": {
+    "batch-rename": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "batch",
+    "rename",
+    "files",
+    "tool"
+  ],
+  "author": "1kai123",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
